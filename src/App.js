@@ -26,7 +26,7 @@ export default function App() {
         <br/>
         <Link to='/search/matrix'>Gif de Matrix</Link>
         <Link to='/search/caballos'>Gif de Caballos</Link>
-        <Link to='/search/ricky and morty'>Gif de Riqki and Morty</Link>
+        <Link to='/search/ricky and morty'>Gif de Ricky and Morty</Link>
         <br/>
         <Route path='/search/:keyword' component={ListOfGif}/>
       </section>
