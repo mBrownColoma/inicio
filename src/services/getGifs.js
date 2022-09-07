@@ -11,9 +11,7 @@ export default function getGifs({keyword='morty'}={}){
                 const {images, title, id} = image
                 const {url} = images.downsized_medium
                 return{title, id, url}
-
             });
-            // console.log(gif)
             return gifs
             }
         });

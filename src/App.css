@@ -28,3 +28,8 @@ a {
   color: aqua;
   font-size: 30px;
 }
+
+.App-ini{
+  color: rgb(0, 106, 255);
+  text-decoration: none;
+}
